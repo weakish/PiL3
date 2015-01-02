@@ -1,5 +1,5 @@
-#!/usr/bin/env lua
--- file: embedding.lua
+#!/usr/bin/env moon
+
 -- Exercise 2.4: How can you embed the following piece
 -- of XML as a string in Lua? Show at least two
 -- different ways.

@@ -1,5 +1,5 @@
-#!/usr/bin/env lua
--- file: expression.lua
+#!/usr/bin/env moon
+
 -- Exercise 2.1: What is the value of the expression
 -- type(nil)==nil? (You can use Lua to check your
 -- answer.) Can you explain this result?

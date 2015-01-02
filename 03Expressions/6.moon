@@ -1,5 +1,5 @@
-#!/usr/bin/env lua
--- file: precedence.lua
+#!/usr/bin/env moon
+
 -- Exercise 3.6: Consider the following expression:
 --     (x and y and (not z)) or ((not y) and x)
 -- Are the parentheses necessary? Would you recommend

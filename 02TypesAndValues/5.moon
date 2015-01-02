@@ -1,5 +1,5 @@
-#!/usr/bin/env lua
--- file: bytes.lua
+#!/usr/bin/env moon
+
 -- Exercise 2.5: Suppose you need to format a long sequence
 -- of arbitrary bytes as a string literal in Lua. How would
 -- you do it? Consider issues like readability, maximum line
@@ -21,4 +21,3 @@ objective_c_is_wonderful = "outputImageProviderFromBuffer\z
                             bytesPerRow:releaseCallback:\z
                             releaseContext:colorSpace:\z
                             shouldColorMatch"
-

@@ -1,5 +1,5 @@
-#!/usr/bin/env lua
--- file: escapes.lua
+#!/usr/bin/env moon
+
 -- Exercise 3.8: Suppose that you want to create a table
 -- that associates each escape sequence for strings with
 -- it's meaning. How could you write a constructor for

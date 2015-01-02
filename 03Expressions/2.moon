@@ -1,5 +1,5 @@
-#!/usr/bin/env lua
--- file: exponents.lua
+#!/usr/bin/env moon
+
 -- Exercise 3.2: What is the result of the expression 2^3^4?
 -- What about 2^-3^4?
 

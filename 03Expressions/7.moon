@@ -1,5 +1,5 @@
-#!/usr/bin/env lua
--- file: days.lua
+#!/usr/bin/env moon
+
 -- Exercise 3.7: What will the following print?
 --     sunday = "monday"; monday = "sunday"
 --     t = {sunday = "monday", [sunday] = monday}

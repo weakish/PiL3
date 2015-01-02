@@ -1,5 +1,5 @@
-#!/usr/bin/env lua
--- file: loop.lua
+#!/usr/bin/env moon
+
 -- Exercise 3.1: What will the following program
 -- print?
 --     for i = -10, 10 do
@@ -12,6 +12,5 @@
 -- 3 is 2, so it will start there, and either 
 -- increase or go to 0 (the latter if it is
 -- at 2).
-for i = -10, 10 do
-    print(i, i % 3)
-end
+for i = -10, 10
+  print(i, i % 3)

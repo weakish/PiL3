@@ -1,5 +1,5 @@
-#!/usr/bin/env lua
--- file: recursive.lua
+#!/usr/bin/env moon
+
 -- Exercise 2.6: Assume the following code:
 --     a = {};  a.a = a
 -- What would be the value of a.a.a.a? Is any
@@ -43,14 +43,12 @@ print("a.a", a.a)
 -- 3.a.a, and 3.a is not a valid operation,
 -- since number 3 is not a table, and you cannot
 -- lookup its key.
--- You can test it on `lua -i`:
+-- You can test it on `mooni`:
 -- [[
-; lua
-> a = {}; a.a =a
+; mooni
+> a = {}
+> a.a =a
 > a.a.a.a = 3
 > = a.a.a.a
-stdin:1: attempt to index field 'a' (a number value)
-stack traceback:
-        stdin:1: in main chunk
-        [C]: in ?
+[string "tmp"]:1: attempt to index field 'a' (a number value)
 -- ]]
